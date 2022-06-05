@@ -36,7 +36,7 @@
             </li>
             <li class="nav-item">
               <i class="fa-solid fa-magnifying-glass"></i>
-              <i class="fa-solid fa-cart-shopping"></i>
+              <a href="/views/cart.html"><i class="fa-solid fa-cart-shopping"><span class='badge badge-warning' id='lblCartCount'></span></i></a>
             </li>
         </div>
       </div>
@@ -108,7 +108,7 @@
           <div class="card">
             <div class="card-body text-center">
               <div class="h1 mb-3">
-                <img src="/images/games/assassinscreed.jpeg" class="card-img-top mb-5">
+                <a href="buynow/assassinscreed.html"><img src="/images/games/assassinscreed.jpeg" class="card-img-top mb-5"></a>
                 <h5 class="card-title mb-3">$26.99</h5>
                 <h4 class="card-text">Assassin's Creed: The Ezio Collection - PlayStation 4</h4>
               </div>
@@ -119,7 +119,7 @@
           <div class="card">
             <div class="card-body text-center">
               <div class="h1 mb-3">
-                <img src="/images/games/batman.jpg" class="card-img-top mb-5">
+                <a href="buynow/batman.html"><img src="/images/games/batman.jpg" class="card-img-top mb-5"></a>
                 <h5 class="card-title mb-3">$8.99</h5>
                 <h4 class="card-text">Batman: Arkham Knight - PlayStation 4</h4>
               </div>
@@ -285,7 +285,7 @@
         <h5 class="pb-2 mb-3 text-uppercase">Sign Up</h5>
         <div>
           <h6 class="text-uppercase">Get Exclusive Promotions, Coupons, and the Lates Events</h6>
-          <div class="input col-12 pb-2 mb-3">
+          <div class="input pb-2 mb-3">
             <input type="text" class="form-control" placeholder="Enter Your E-mail" aria-label="Enter Your E-mail" aria-required="true" aria-describedby="button-addon2">
             <button type="submit" class="btn" id="button-addon2">Join</button>
           </div>
@@ -301,7 +301,7 @@
           <div class="col-lg-3 col-md-6 col-12 mx-auto py-2">
             <p>© 2022 EZGames</p>
           </div>
-          <div class="col-lg-3 col-md-6 col-12 py-2">
+          <div class="py-2">
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
             <a href="#"><i class="fa-brands fa-twitter"></i></a>
             <a href="#"><i class="fa-brands fa-youtube"></i></a>
@@ -313,6 +313,8 @@
   <!-- FOOTER END -->
   
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  <script src="/js/cart.js"></script>
   
 </body>
 </html>
