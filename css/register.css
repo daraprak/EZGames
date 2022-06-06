@@ -148,21 +148,45 @@ button:hover {
     outline: none;
 }
 
+.mask {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.card {
+    border-radius: 15px;
+    border: 1px solid #000;
+}
 
+.form-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    background-color: red;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
 
-
-
-
-
-
-
-
-
-
-
+.btn:hover {
+    background-color: #3a3833;
+}
 
 #footer {
     background-color: #222;
