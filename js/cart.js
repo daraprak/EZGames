@@ -2,6 +2,8 @@ console.log("cart.js is loaded");
 
 let carts = document.querySelectorAll('.buy-button');
 
+let gameConsole = ['Playstation 4', 'Xbox One', 'Nintendo Switch']
+
 let products = [
     {
         name: 'Assassin\'s Creed: The Ezio Collection',
@@ -30,12 +32,19 @@ let products = [
 
 ]
 
+let option = "";
+
+for (let i = 0; i < gameConsole.length; i++) {
+    option += '<option value="' + gameConsole[i] + '">' + gameConsole[i] + "</option>";
+}
+
+document.getElementById('console').innerHTML = option;
+
 for (let i = 0; i < carts.length; i++) {
     carts[i].addEventListener('click', () => {
         cartNumbers(products[i]);
         totalCost(products[i])
     })
-
 }
 
 function onLoadCartNumbers() {
